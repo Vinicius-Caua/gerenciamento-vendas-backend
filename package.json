@@ -1,0 +1,38 @@
+{
+  "name": "gerenciamento-vendas",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinicius-Caua/gerenciamento-vendas-backend.git"
+  },
+  "author": "Vinicius Cauã",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinicius-Caua/gerenciamento-vendas-backend/issues"
+  },
+  "homepage": "https://github.com/Vinicius-Caua/gerenciamento-vendas-backend#readme",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.7",
+    "dotenv": "^17.0.0",
+    "eslint": "^9.30.0",
+    "express": "^5.1.0",
+    "install": "^0.13.0",
+    "nodemon": "^3.1.10",
+    "npm": "^11.4.2",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.35.0"
+  }
+}
